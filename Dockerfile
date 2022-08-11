@@ -1,6 +1,9 @@
 ## Start from this Docker image (The NVIDIA container image for PyTorch, release 22.02, is available on NGC.)
 FROM nvcr.io/nvidia/pytorch:21.05-py3
 
+## Alternative start from a lightweight CUDA image
+# FROM nvidia/cuda:11.3.0-base-ubuntu20.04
+
 ## Set workdir in Docker Container
 # set default workdir in your docker container
 # In other words your scripts will run from this directory
