@@ -1,4 +1,4 @@
-## Start from this Docker image (The NVIDIA container image for PyTorch, release 22.02, is available on NGC.)
+## Start from this Docker image (The NVIDIA container image for PyTorch, release 21.05, is available on NGC.)
 FROM nvcr.io/nvidia/pytorch:21.05-py3
 
 ## Alternative start from a lightweight CUDA image
